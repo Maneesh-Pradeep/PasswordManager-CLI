@@ -1,0 +1,5 @@
+pyrebase4
+cryptography
+pyperclip
+pyAesCrypt
+requests
