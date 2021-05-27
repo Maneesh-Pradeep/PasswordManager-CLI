@@ -6,6 +6,8 @@ Command Line version of my amazing [Password Manager](https://github.com/Maneesh
 ## Overview
 A fully functional and secure Password Manager and file storage vault with cloud support accessible via your command line/terminal.
 
+<img src="./images/Menu-Screen.png" alt="Main Screen" width="500"/>
+
 ## Main features
 It contains all the features and functionalities of the GUI version of my [Password Manager](https://github.com/Maneesh-Pradeep/PasswordManager). So it is adviced you take a look at that repository to know more about the functionalities.
 
@@ -31,4 +33,33 @@ Here are the some of the key features :
 ### 8. Clipboard access
   The passwords will not be displayed on the screen, rather will be copied to the user's clipboard and will be automatically cleared after 10 seconds.
 ### 9. Session Lock
-  The user can Lock or Unlock their session after logging in
+  The user can Lock or Unlock their session after logging in, by doing so, the user need to provide the master password everytime they want to view their saved passwords or file vault. This feature makes sure that no one can view your information even if you're not near your computer during an active session. The session is locked by default.
+
+## Installation
+```
+# Clone this repository
+git clone https://github.com/Maneesh-Pradeep/PasswordManager-CLI.git
+
+# Change directory
+cd PasswordManager-CLI
+
+# Install the requirements
+pip3 install -r requirements.txt
+
+# Execute the python file
+python3 pwdmngrCLI.py
+```
+
+## Screenshots
+
+<img src="./images/Login-Screen.png" alt="Login Screen" width="500"/>
+
+<img src="./images/Menu-Screen.png" alt="Main Screen" width="500"/>
+
+<img src="./images/Add-Screen.png" alt="Add Screen" width="500"/>
+
+<img src="./images/View-Screen.png" alt="View Screen" width="500"/>
+
+<img src="./images/Vault-Screen.png" alt="Vault Screen" width="500"/>
+
+<img src="./images/Reset_Screen.png" alt="Reset Screen" width="500"/>
