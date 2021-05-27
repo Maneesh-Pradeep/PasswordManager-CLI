@@ -62,4 +62,4 @@ python3 pwdmngrCLI.py
 
 <img src="./images/Vault-Screen.png" alt="Vault Screen" width="500"/>
 
-<img src="./images/Reset_Screen.png" alt="Reset Screen" width="500"/>
+<img src="./images/Reset-Screen.png" alt="Reset Screen" width="500"/>
